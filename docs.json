@@ -307,7 +307,7 @@
         ]
       },
        {
-        "tab": "Plattform Guidelines & Training",
+        "tab": "Platform Guidelines & Training",
         "groups": [
           {
             "group": "WhatsApp Cloud API by Meta",
@@ -355,7 +355,7 @@
         ]
       },
        {
-        "tab": "Plattform Updates & Info",
+        "tab": "Platform Updates & Info",
         "groups": [
           {
             "group": "What's New",
@@ -413,26 +413,8 @@
         ]
       }
      
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
+   
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -442,7 +424,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@eetechai.com"
       }
     ],
     "primary": {
@@ -453,9 +435,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "facebook": "https://facebook.com/eetechai",
+      "instagram": "https://instagram.com/eetechai"
     }
   }
 }
