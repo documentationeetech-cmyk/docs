@@ -263,13 +263,6 @@
             ]
           },
           {
-            "group" : "Suscription and Plans",
-            "pages" : [
-              "subscription-plan/legacy",
-              "subscription-plan/latest"
-            ]
-          },
-          {
             "group": "Frequently Asked Questions (FAQs)",
             "pages": [
               "faqs/onboarding_faqs",
