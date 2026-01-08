@@ -1,3 +1,104 @@
 ---
 title: "Integrate  Eetech with Outlook"
 ---
+
+The **Outlook Integration** allows you to connect your EEtech chatbot with Microsoft Outlook to automate email communication. By syncing chatbot interactions with Outlook, you can generate, schedule, and send emails automatically—improving response times and communication efficiency.
+
+---
+
+#### **Benefits of Outlook Integration**
+
+- 📧 Automatically send emails triggered by chatbot interactions
+- ⚡ Faster follow-ups without manual effort
+- 🔄 Secure integration using Microsoft OAuth credentials
+- 🧠 Improved customer communication and engagement
+- ⏱️ Save time by automating routine email responses
+
+---
+
+#### **Accessing the Outlook Integration**
+
+1. Log in to your **EEtech Dashboard**
+2. Select your **Bot**
+3. Navigate to **Integrations**
+4. Click on **Third-party Apps Integration**
+5. Select **Outlook** from the list
+6. Click on the Connect button.
+
+---
+
+#### **How to Connect Outlook with **EEtech
+
+To connect Outlook, you need to enter your **Client ID** and **Client Secret** generated from Microsoft Azure.
+
+**Step 1: Create an App in Azure**
+
+1. Go to the **Microsoft Azure Portal**
+2. Sign in with your Microsoft account
+3. Navigate to **Azure Active Directory**
+4. Click **App registrations**
+5. Select **New registration**
+6. Enter an app name (e.g., EEtech_Outlook Integration_ )
+7. Choose the supported account type
+8. Click **Register**
+
+**Step 2: Get Client ID**
+
+- After registration, copy the **Application (Client) ID**
+- Paste this value into the **Client ID** field in EEtech
+
+**Step 3: Generate Client Secret**
+
+1. In the same app, go to **Certificates & secrets**
+2. Click **New client secret**
+3. Add a description and select an expiry duration
+4. Click **Add**
+5. Copy the generated **Client Secret**
+
+⚠️ **Important:** The Client Secret is displayed only once. Save it securely.
+
+**Step 4: Enter Credentials in EEtech**
+
+1. Paste the **Client ID**
+2. Paste the **Client Secret**
+3. Click **Connect**
+
+Once connected, Outlook email automation will be enabled for your chatbot.
+
+---
+
+#### **Required Permissions**
+
+Ensure the following permissions are enabled for the Azure app:
+
+- Mail.Send
+- [User.Read](http://User.Read)
+
+Admin consent may be required depending on your organization’s settings.
+
+---
+
+#### **Use Cases**
+
+- **Automated Follow-ups** Trigger Outlook emails automatically based on chatbot conversations
+- **Lead Communication** Send personalized emails to leads captured by the chatbot
+- **Internal Notifications** Notify teams when specific chatbot events occur
+
+---
+
+#### **Troubleshooting**
+
+**Invalid Client ID or Client Secret**
+
+- Ensure values are copied correctly
+- Check that the client secret has not expired
+
+**Permission Issues**
+
+- Verify required permissions are granted
+- Reauthorize the app after permission changes
+
+**Connection Failed**
+
+- Check Azure app status
+- Regenerate Client Secret if required
